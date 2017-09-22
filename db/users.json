@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "position": "Admin",
+      "name": "Marek",
+      "surname": "Oczko",
+      "role": "User",
+      "shortDesc": " short description",
+      "longDesc": "long description",
+      "exp": "10",
+      "id": 1
+    },
+    {
+      "position": "Developer",
+      "name": "Monika",
+      "surname": "Kowalczyk",
+      "role": "Admin",
+      "shortDesc": " short description",
+      "longDesc": "long description",
+      "exp": "21",
+      "id": 2
+    },
+    {
+      "position": "Manager",
+      "name": "Piotr",
+      "surname": "Patryczki",
+      "role": "User",
+      "shortDesc": " short description",
+      "longDesc": "long description",
+      "exp": "5",
+      "id": 3
+    },
+    {
+      "position": "Tester",
+      "name": "Krystyna",
+      "surname": "Igielska",
+      "role": "Admin",
+      "shortDesc": " short description",
+      "longDesc": "long description",
+      "exp": "43",
+      "id": 4
+    },
+    {
+      "position": "HR",
+      "name": "Krystian",
+      "surname": "Krystek",
+      "role": "User",
+      "exp": "9",
+      "shortDesc": " short description",
+      "longDesc": "long description",
+      "id": 5
+    }
+  ]
+}

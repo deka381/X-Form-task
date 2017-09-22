@@ -1,0 +1,126 @@
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 50px 50px;
+  width: auto;
+  background:rgba(113, 191, 0, 0.3);
+}
+span{
+  margin-left: 20px;
+}
+thead{
+  padding: 10px;
+  list-style: none;
+}
+.add_usr{
+  height: 200px;
+}
+.add_usr label{
+  width: 50%;
+  float: left;
+  padding-left: 50px;
+}
+
+.add_usr input{
+  background: rgba(205, 205, 205, 0.5);
+  width: 100%;
+}
+.user_list {
+  padding: 10px;
+  list-style: none;
+}
+
+.user_list tr {
+  padding: 10px;
+}
+.user_list_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.user_list tr:nth-of-type(2n+1) {
+  background-color: rgba(13,166,111,0.2);
+}
+.user_list tr:nth-of-type(2n+2) {
+  background-color: rgba(65, 140, 109, 0.5);
+}
+.first_tr{
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+.user_list td {
+  padding: 10px;
+  width: 100px;
+}
+.editable {
+  background-color:rgba(222,111,111,0.6) !important;
+  border: 1px solid black;
+}
+.editable input{
+  width: 100px;
+}
+.editable input.dob_edit{
+  width: 150px;
+}
+.editable button{
+  margin-left: auto;
+  margin-right: auto;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+button {
+  display: block;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
+}
+button.edit {
+background: rgba(65, 250, 129, 0.9);
+}
+button.edit:hover {
+background: #43F547;
+}
+
+button.delete {
+background: rgba(250,111,111,0.9);
+}
+button.delete:hover {
+background: #CD0037;
+}
+.get_group{
+  margin-top: 20px;
+}
+#addUsr {
+  position: relative;
+  width: 30%;
+  margin-top: 5px;
+  background-color:  #FFBC42;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  padding: 6px 7px;
+  font-size: 16px;
+  top: 25px;
+  display: inline-block;
+  margin-left: 50px;
+}
+#addUsr:hover{
+  color:#000;
+}
+.showAll{
+  margin-left:50px;
+  padding: 10px;
+  font-weight: 600;
+  border:none;
+  border-radius: 4px;
+  background-color: #adff00;
+  font-size: 24px;
+}
+.clickBtn{
+  background-color:   #74d600;
+}
+.hide{
+  display: none;
+}
